@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9CE6067A202AF8F20040C7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE60679202AF8F20040C7D6 /* AppDelegate.swift */; };
-		9CE6067C202AF8F20040C7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6067B202AF8F20040C7D6 /* ViewController.swift */; };
+		9CE6067C202AF8F20040C7D6 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6067B202AF8F20040C7D6 /* ViewControllerA.swift */; };
 		9CE6067F202AF8F20040C7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6067D202AF8F20040C7D6 /* Main.storyboard */; };
 		9CE60681202AF8F30040C7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE60680202AF8F30040C7D6 /* Assets.xcassets */; };
 		9CE60684202AF8F30040C7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE60682202AF8F30040C7D6 /* LaunchScreen.storyboard */; };
+		9CE6068E202B143E0040C7D6 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6068D202B143E0040C7D6 /* ViewControllerB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CE60676202AF8F10040C7D6 /* ViewcontrollerDataPassing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewcontrollerDataPassing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE60679202AF8F20040C7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CE6067B202AF8F20040C7D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CE6067B202AF8F20040C7D6 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		9CE6067E202AF8F20040C7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE60680202AF8F30040C7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE60683202AF8F30040C7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE60685202AF8F40040C7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE6068D202B143E0040C7D6 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				9CE60679202AF8F20040C7D6 /* AppDelegate.swift */,
-				9CE6067B202AF8F20040C7D6 /* ViewController.swift */,
+				9CE6067B202AF8F20040C7D6 /* ViewControllerA.swift */,
+				9CE6068D202B143E0040C7D6 /* ViewControllerB.swift */,
 				9CE6067D202AF8F20040C7D6 /* Main.storyboard */,
 				9CE60680202AF8F30040C7D6 /* Assets.xcassets */,
 				9CE60682202AF8F30040C7D6 /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE6067C202AF8F20040C7D6 /* ViewController.swift in Sources */,
+				9CE6068E202B143E0040C7D6 /* ViewControllerB.swift in Sources */,
+				9CE6067C202AF8F20040C7D6 /* ViewControllerA.swift in Sources */,
 				9CE6067A202AF8F20040C7D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +198,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -251,6 +257,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
